@@ -52,3 +52,92 @@
   height: 50vw;
   width: 50vw;
 }
+
+/* Media Query for  (below 1200px) */
+
+@media only screen and (max-width: 1200px) {
+  /* SUMO WORLD */
+  .sumo-world .h-sumo-world p {
+    line-height: 1.25;
+
+    font-size: 11vw;
+  }
+
+  .sumo-world .content-sumo-world div p {
+    font-size: 1.5vw;
+  }
+
+  .sumo-world .content-sumo-world .image-part img {
+    text-align: right;
+  }
+}
+
+/* Media Query for Tablets and Smaller Laptops (below 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  /* SUMO WORLD */
+  .sumo-world {
+    margin-top: 12vw;
+  }
+
+  .sumo-world .h-sumo-world p {
+    font-size: 10vw;
+    line-height: 1.2;
+  }
+
+  .sumo-world .content-sumo-world p {
+    width: 48vw;
+    font-size: 1.5vw;
+    line-height: 1.8;
+  }
+
+  .sumo-world .content-sumo-world div img {
+    height: 50vw;
+    width: 50vw;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+  /* SUMO WORLD */
+  .sumo-world {
+    margin-top: 20vw;
+  }
+
+  .sumo-world .h-sumo-world img {
+    width: 40vw;
+    margin-top: 5vw;
+  }
+
+  .sumo-world .h-sumo-world p {
+    width: 55vw;
+    font-size: 15vw;
+  }
+
+  .sumo-world .content-sumo-world {
+    flex-direction: column;
+    margin-top: 4vw;
+  }
+
+  .sumo-world .content-sumo-world div p,
+  .sumo-world .content-sumo-world .image-part {
+    width: 100%;
+  }
+  .sumo-world .content-sumo-world .image-part img {
+    margin-top: 3vw;
+    width: 100%;
+    height: 100%;
+  }
+  .sumo-world .content-sumo-world div p {
+    font-size: 3vw;
+  }
+  .sumo-world .content-sumo-world .sec-para {
+    margin-top: 2vw;
+  }
+
+  .sumo-world .content-sumo-world div img {
+    width: 100%;
+    height: auto;
+  }
+}

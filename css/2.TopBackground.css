@@ -37,3 +37,57 @@
   color: var(--top-bg-txt-50trans);
   letter-spacing: 0rem;
 }
+
+/* Media Query for  (below 1200px) */
+
+@media only screen and (max-width: 1200px) {
+  /* Top background */
+  .top-bg-txt {
+    height: 70vw;
+  }
+}
+
+/* Media Query for Tablets and Smaller Laptops (below 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  /* Top background */
+  .top-bg-txt {
+    height: 70vw;
+  }
+
+  .top-bg-txt p {
+    font-size: 3vw;
+    line-height: 1.2;
+  }
+
+  .top-bg-txt .for-of {
+    font-size: 3.5vw;
+  }
+
+  .top-bg-txt .for-sumo-world {
+    font-size: 11vw;
+    line-height: 1;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+  /* Top background */
+  .top-bg-txt {
+    height: 100vw;
+  }
+
+  .top-bg-txt p {
+    margin-top: 12vw;
+    font-size: 5vw;
+  }
+
+  .top-bg-txt .for-of {
+    font-size: 6vw;
+  }
+
+  .top-bg-txt .for-sumo-world {
+    font-size: 18vw;
+  }
+}

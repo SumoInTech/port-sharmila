@@ -24,3 +24,57 @@
 .more-than-ceo .content-more-than-ceo span {
   color: var(--more-than-ceo-span-color);
 }
+
+/* Media Query for  (below 1200px) */
+
+@media only screen and (max-width: 1200px) {
+  /* MORE THAN CEO */
+  .more-than-ceo .h-more-than-ceo {
+    font-size: 11vw;
+    line-height: 1.25;
+  }
+
+  .more-than-ceo .content-more-than-ceo {
+    font-size: 7vw;
+  }
+}
+
+/* Media Query for Tablets and Smaller Laptops (below 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  /* MORE THAN CEO */
+  .more-than-ceo {
+    margin-top: 8vw;
+  }
+
+  .more-than-ceo .h-more-than-ceo {
+    font-size: 10vw;
+    line-height: 1.2;
+  }
+
+  .more-than-ceo .content-more-than-ceo {
+    font-size: 6.5vw;
+    line-height: 1.2;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+  /* MORE THAN CEO */
+  .more-than-ceo {
+    margin-top: 20vw;
+    flex-direction: column;
+  }
+
+  .more-than-ceo .h-more-than-ceo {
+    font-size: 15vw;
+  }
+
+  .more-than-ceo .content-more-than-ceo {
+    font-size: 9vw;
+    line-height: 1.5;
+    text-align: right;
+    padding-left: 3vw;
+  }
+}

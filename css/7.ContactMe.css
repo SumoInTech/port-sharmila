@@ -58,3 +58,94 @@ textarea::-ms-input-placeholder {
   cursor: pointer;
   width: fit-content;
 }
+
+/* Media Query for  (below 1200px) */
+
+@media only screen and (max-width: 1200px) {
+  /* CONTACT ME */
+  .contact-me .h-contact-me {
+    font-size: 11vw;
+    line-height: 1.25;
+  }
+
+  .contact-me form {
+    width: 35%;
+    top: 20vw;
+    right: 10vw;
+  }
+
+  .contact-me form input,
+  .contact-me form textarea,
+  .contact-me form button {
+    font-size: 1.5vw;
+  }
+  .contact-me form input {
+    padding-bottom: 2vw;
+  }
+}
+
+/* Media Query for Tablets and Smaller Laptops (below 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  /* CONTACT ME */
+  .contact-me {
+    margin-top: 4vw;
+  }
+
+  .contact-me .h-contact-me {
+    font-size: 10vw;
+    line-height: 1.2;
+  }
+
+  .contact-me form {
+    width: 38%;
+  }
+
+  .contact-me form input,
+  .contact-me form textarea,
+  .contact-me form button {
+    font-size: 1.5vw;
+    padding: 0.8vw;
+    line-height: 1.4;
+  }
+
+  .contact-me form textarea {
+    height: 10vw;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+  /* CONTACT ME */
+  .contact-me {
+    margin-top: 20vw;
+  }
+  .contact-me .h-contact-me {
+    font-size: 15vw;
+  }
+
+  .contact-me form {
+    position: static;
+    width: 90%;
+    margin: 5vw auto;
+    gap: 3vw;
+  }
+
+  .contact-me form input,
+  .contact-me form textarea {
+    font-size: 3vw;
+    height: 10vw;
+    padding-bottom: 5vw;
+    padding-left: 3vw;
+  }
+
+  .contact-me form button {
+    font-size: 3vw;
+    padding: 2vw 4vw;
+  }
+
+  .contact-me form textarea {
+    height: 20vw;
+  }
+}

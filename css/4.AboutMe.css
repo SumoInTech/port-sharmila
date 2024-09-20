@@ -50,3 +50,97 @@
   justify-content: space-between;
   font-weight: 1000;
 }
+
+/* Media Query for  (below 1200px) */
+
+@media only screen and (max-width: 1200px) {
+  /* ABOUT ME */
+  .Aboutme .h-aboutme {
+    font-size: 11vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .h-sharmila {
+    font-size: 4.5vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .sharmila-content {
+    width: 85%;
+    font-size: 1.5vw;
+  }
+
+  .Aboutme .aboutme-footer {
+    width: 45%;
+    font-size: 1.5vw;
+  }
+}
+
+/* Media Query for Tablets and Smaller Laptops (below 1024px) */
+
+@media only screen and (max-width: 1024px) {
+  /* ABOUT ME */
+  .Aboutme .h-aboutme {
+    font-size: 10vw;
+    line-height: 1;
+  }
+
+  .Aboutme .aboutme-content .content-part .h-sharmila {
+    font-size: 4.5vw;
+    line-height: 1.2;
+  }
+
+  .Aboutme .aboutme-content .content-part .sharmila-content {
+    width: 90%;
+    font-size: 1.5vw;
+    line-height: 1.8;
+  }
+
+  .Aboutme .aboutme-footer {
+    width: 55%;
+    font-size: 1.5vw;
+    line-height: 1.6;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+  /* ABOUT ME */
+
+  .Aboutme {
+    margin-top: 20vw;
+  }
+  .Aboutme .h-aboutme {
+    font-size: 15vw;
+  }
+
+  .Aboutme .aboutme-content {
+    flex-direction: column;
+  }
+
+  .Aboutme .aboutme-content .content-part {
+    width: 100%;
+  }
+
+  .Aboutme .aboutme-content .content-part .h-sharmila {
+    margin-top: 4vw;
+    font-size: 6.5vw;
+  }
+
+  .Aboutme .aboutme-content .content-part .sharmila-content {
+    margin-top: 3vw;
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .Aboutme .aboutme-content .mid-profile-img {
+    height: 60vw;
+    width: 100%;
+    margin-top: 3vw;
+  }
+
+  .Aboutme .aboutme-footer {
+    margin-top: 3vw;
+    width: 100%;
+    font-size: 3vw;
+  }
+}
