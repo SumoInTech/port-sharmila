@@ -13,14 +13,15 @@
 }
 
 .Aboutme .aboutme-content {
-  display: flex;
-  padding: 0vw 3vw 0vw 3vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+  padding: 0 3vw;
 }
 
 .Aboutme .aboutme-content .content-part {
-  width: 50vw;
+  width: 100%;
 }
-
 /* heading for about me  */
 .Aboutme .aboutme-content .content-part .h-sharmila {
   font-size: 4vw;
@@ -31,24 +32,27 @@
 /* main content inside the about me */
 .Aboutme .aboutme-content .content-part .sharmila-content {
   margin-top: 1.5vw;
-  width: 75%;
+  width: 100%;
   line-height: 2;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
 }
 .Aboutme .aboutme-content .mid-profile-img {
-  width: 50vw;
+  width: 100%;
   background-color: var(--other-bg-txt);
 }
 
-/* phone number */
+/* phone number and mail */
 .Aboutme .aboutme-footer {
   display: flex;
-  padding: 0vh 3vw 0vh 3vw;
-  margin-top: 2vw;
-  width: 40%;
-  font-size: 1.1vw;
+
+  width: 95%;
+  font-size: 1.4vw;
   justify-content: space-between;
   font-weight: 1000;
+  cursor: pointer;
+  p:hover {
+    color: var(--hover-text-color);
+  }
 }
 
 /* Media Query for  (below 1200px) */
@@ -61,16 +65,6 @@
 
   .Aboutme .aboutme-content .content-part .h-sharmila {
     font-size: 4.5vw;
-  }
-
-  .Aboutme .aboutme-content .content-part .sharmila-content {
-    width: 85%;
-    font-size: 1.5vw;
-  }
-
-  .Aboutme .aboutme-footer {
-    width: 45%;
-    font-size: 1.5vw;
   }
 }
 
@@ -89,14 +83,10 @@
   }
 
   .Aboutme .aboutme-content .content-part .sharmila-content {
-    width: 90%;
-    font-size: 1.5vw;
     line-height: 1.8;
   }
 
   .Aboutme .aboutme-footer {
-    width: 55%;
-    font-size: 1.5vw;
     line-height: 1.6;
   }
 }
@@ -110,15 +100,20 @@
     margin-top: 20vw;
   }
   .Aboutme .h-aboutme {
-    font-size: 15vw;
+    font-size: 14vw;
   }
 
   .Aboutme .aboutme-content {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content"
+      "footer"
+      "image";
+    gap: 3vw;
   }
 
   .Aboutme .aboutme-content .content-part {
-    width: 100%;
+    grid-area: content;
   }
 
   .Aboutme .aboutme-content .content-part .h-sharmila {
@@ -132,15 +127,15 @@
     font-size: 3vw;
   }
 
-  .Aboutme .aboutme-content .mid-profile-img {
-    height: 60vw;
-    width: 100%;
-    margin-top: 3vw;
-  }
-
   .Aboutme .aboutme-footer {
+    grid-area: footer;
     margin-top: 3vw;
     width: 100%;
     font-size: 3vw;
+  }
+  .Aboutme .aboutme-content .mid-profile-img {
+    grid-area: image;
+    height: 60vw;
+    width: 100%;
   }
 }

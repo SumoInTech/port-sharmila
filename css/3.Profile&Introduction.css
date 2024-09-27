@@ -1,7 +1,7 @@
 /* top profile */
 .top-profile {
-  height: 50vw;
-  margin-top: 13.75vw;
+  height: 35vw;
+  margin-top: 13vw;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -29,10 +29,9 @@
 /* Media Query for  (below 1200px) */
 
 @media only screen and (max-width: 1200px) {
-  /* Top profile */
+  /* top profile */
   .top-profile {
-    height: 55vw;
-    margin-top: 14vw;
+    margin-top: 12.5vw;
   }
 
   /* INTRODUCTION */
@@ -48,14 +47,9 @@
 /* Media Query for Tablets and Smaller Laptops (below 1024px) */
 
 @media only screen and (max-width: 1024px) {
-  /* Top profile */
+  /* top profile */
   .top-profile {
-    height: 55vw;
-    margin-top: 14vw;
-  }
-
-  .top-profile .profile-img {
-    width: 60%;
+    margin-top: 14.5vw;
   }
 
   /* INTRODUCTION */
@@ -74,7 +68,7 @@
 @media only screen and (max-width: 768px) {
   /* Top profile */
   .top-profile {
-    height: 80vw;
+    height: 55vw;
     margin-top: 54vw;
   }
 

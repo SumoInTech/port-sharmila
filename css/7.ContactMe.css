@@ -53,12 +53,15 @@ textarea::-ms-input-placeholder {
   padding: 0.5vw 1vw 0.5vw 1vw;
   background-color: var(--other-bg-txt);
   border: 1px solid var(--other-bg-txt);
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   letter-spacing: 0.2vw;
   cursor: pointer;
   width: fit-content;
 }
-
+.contact-me form button:hover {
+  background-color: var(--hover-button-color);
+  color: var(--other-bg-txt);
+}
 /* Media Query for  (below 1200px) */
 
 @media only screen and (max-width: 1200px) {
@@ -74,11 +77,6 @@ textarea::-ms-input-placeholder {
     right: 10vw;
   }
 
-  .contact-me form input,
-  .contact-me form textarea,
-  .contact-me form button {
-    font-size: 1.5vw;
-  }
   .contact-me form input {
     padding-bottom: 2vw;
   }

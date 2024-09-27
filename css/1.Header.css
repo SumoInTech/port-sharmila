@@ -1,13 +1,16 @@
 /* NAVIGATION BAR */
 header {
-  padding: 3vw 3vw 0vw 3vw;
+  padding: 2vw 2vw 0vw 2vw;
 }
 nav {
-  width: 30%;
+  width: 35%;
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
+  a:hover {
+    color: var(--hover-text-color);
+  }
 }
 
 .logo-img {
@@ -19,38 +22,33 @@ nav {
 }
 
 .logo-img img {
-  width: 5vw;
+  width: 8vw;
 }
 
 @media only screen and (max-width: 1200px) {
   /* NAVIGATION BAR */
-  nav {
-    width: 35%;
-    font-size: 1.5vw;
-  }
 
   .logo-img img {
-    width: 6vw;
+    width: 9vw;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   /* NAVIGATION BAR */
   nav {
-    /* width: 45%; */
     font-size: 1.5vw;
   }
 
   .logo-img img {
-    width: 7vw;
+    width: 10vw;
   }
 }
 
 @media only screen and (max-width: 768px) {
   /* NAVIGATION BAR */
   nav {
-    width: 70%;
-    font-size: 3vw;
+    width: 67%;
+    font-size: 2.5vw;
     margin-bottom: 5vw;
     margin-top: 1vw;
   }

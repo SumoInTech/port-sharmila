@@ -29,14 +29,14 @@
 
 /* content for sumo world */
 .sumo-world .content-sumo-world {
-  padding: 0vh 3vw 0vh 3vw;
+  padding: 5vw 3vw;
   display: flex;
 }
 
 .sumo-world .content-sumo-world div p {
   width: 40vw;
   line-height: 2;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
 }
 
 .sumo-world .content-sumo-world div .sec-para {
@@ -61,10 +61,6 @@
     line-height: 1.25;
 
     font-size: 11vw;
-  }
-
-  .sumo-world .content-sumo-world div p {
-    font-size: 1.5vw;
   }
 
   .sumo-world .content-sumo-world .image-part img {
@@ -107,12 +103,14 @@
 
   .sumo-world .h-sumo-world img {
     width: 40vw;
+    height: 25vw;
+
     margin-top: 5vw;
   }
 
   .sumo-world .h-sumo-world p {
-    width: 55vw;
-    font-size: 15vw;
+    width: 60vw;
+    font-size: 14vw;
   }
 
   .sumo-world .content-sumo-world {
