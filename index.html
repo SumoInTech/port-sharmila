@@ -154,10 +154,15 @@
     <div class="contact-me">
       <p class="h-contact-me">Contact <br />Me</p>
       <div class="contactme-form">
-        <form>
-          <input type="text" placeholder="Full Name" required />
-          <input type="email" placeholder="Email" required />
-          <textarea placeholder="Message" required></textarea>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="55726ffe-c2ed-4294-9916-3cf4018a8569"
+          />
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>
