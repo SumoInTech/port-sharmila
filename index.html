@@ -29,14 +29,14 @@
     <header>
       <!-- navigation bar -->
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About Me</a>
-        <a href="#">Sumo World</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#sumoWorld">Sumo World</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <div class="logo-img">
+      <a class="logo-img" target="_blank" href="https://www.sumoworld.com.np/">
         <img src="image/SumoWorldLogo.svg" alt="SumoWorldLogo" />
-      </div>
+      </a>
     </header>
 
     <!-- background text -->
@@ -65,7 +65,7 @@
     </div>
 
     <!-- ABOUT ME -->
-    <div class="Aboutme">
+    <div class="Aboutme" id="aboutMe">
       <p class="h-aboutme">About Me</p>
 
       <!-- mid content for about me -->
@@ -93,8 +93,8 @@
 
         <!-- footer of about me -->
         <div class="aboutme-footer">
-          <p>+977 &nbsp; 9851127666</p>
-          <p>sumoworld@mail.com.np</p>
+          <a href="tel:+977-9851127666">+977 &nbsp;9851127666</a>
+          <a href="mailto:sumoworld@mail.com.np">sumoworld@mail.com.np</a>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
     </div>
 
     <!-- SUMO WORLD -->
-    <div class="sumo-world">
+    <div class="sumo-world" id="sumoWorld">
       <!-- heading for sumo world -->
       <div class="h-sumo-world">
         <img src="image/SumoWorldThemeLogo1.jpg" />
@@ -151,7 +151,7 @@
     </div>
 
     <!-- CONTACT ME -->
-    <div class="contact-me">
+    <div class="contact-me" id="contact">
       <p class="h-contact-me">Contact <br />Me</p>
       <div class="contactme-form">
         <form action="https://api.web3forms.com/submit" method="POST">
@@ -170,11 +170,17 @@
 
     <!-- FOOTER -->
     <footer>
-      <a href="#"><img src="image/icons/facebook.png" alt="Facebook" /></a>
-      <a href="#"
+      <a
+        href="https://www.facebook.com/profile.php?id=100068850605295"
+        target="_blank"
+        ><img src="image/icons/facebook.png" alt="Facebook"
+      /></a>
+      <a href="mailto:sumoworld@mail.com.np"
         ><img class="mail" src="image/icons/mail.png" alt="Email"
       /></a>
-      <a href="#"><img src="image/icons/call.png" alt="Phone" /></a>
+      <a href="tel:+977-9851127666"
+        ><img src="image/icons/call.png" alt="Phone"
+      /></a>
     </footer>
   </body>
 </html>

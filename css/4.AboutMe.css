@@ -50,7 +50,7 @@
   justify-content: space-between;
   font-weight: 1000;
   cursor: pointer;
-  p:hover {
+  a:hover {
     color: var(--hover-text-color);
     transition: color 0.3s ease;
   }
